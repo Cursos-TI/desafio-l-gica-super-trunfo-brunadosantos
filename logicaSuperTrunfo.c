@@ -6,7 +6,8 @@
 // Este código inicial serve como base para o desenvolvimento do sistema de comparação de cartas de cidades. 
 // Siga os comentários para implementar cada parte do desafio.
 
-// Definição das variáveis para armazenar as propriedades das cidades
+int main() {
+    // Definição das variáveis para armazenar as propriedades das cidades
     char pais1[30] = "Brasil", pais2[30] = "Portugal";
     char estado1[20] = "SP", estado2[20] = "LX";
     char codigo1[20] = "A01", codigo2[20] = "B02";
@@ -22,9 +23,6 @@
     float densidade_populacionalCarta2;
     float pib_per_capitaCarta1;
     float pib_per_capitaCarta2;
-
-
-int main() {
 
     // CÁLCULO DENSIDADE POPULACIONAL E PIB PER CAPITA
     // Densidade populacional => calcula a quantidade de habitantes por km²
@@ -69,7 +67,7 @@ int main() {
        Carta 1 - Brasil, São Paulo (SP): 12.300.000
        Carta 2 - Brasil, Rio de Janeiro (RJ): 6.000.000
        Resultado: Carta 1 (São Paulo) venceu!
-       
+
     */
 
     switch (numeroAtributo) 
